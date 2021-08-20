@@ -52,6 +52,14 @@ nav {
     background-color: #ededed;
 }
 
+nav ul li {
+    transition: background-color 1s;
+}
+
+nav ul li:hover {
+    background-color: white;
+}
+
 .main-nav {
     position: sticky;
     top: 100px;
@@ -171,7 +179,16 @@ footer {
         font-size: 2vw;
     }
 
+    section.join h2 {
+        font-size: 4vw;
+    }
+
+    section.join p {
+        font-size: 2vw;
+    }
+
     section.join input {
+        font-size: 2vw;
         padding: .5vw .7vw;
     }
 }
@@ -195,7 +212,7 @@ footer {
     }
 
     .main-nav {
-        top: 80px;
+        top: 96px;
     }
 
     .main-nav ul {
@@ -209,7 +226,7 @@ footer {
     }
 
     .main-nav ul li a {
-        font-size: 2vw;
+        font-size: 4vw;
     }
 
     main {
@@ -233,20 +250,20 @@ footer {
     }
 
     section.join h2 {
-        font-size: 4vw;
+        font-size: 6vw;
     }
 
     section.join p {
-        font-size: 2vw;
+        font-size: 3vw;
     }
 
     section.join input {
         padding: 2px 10px;
-        font-size: 2vw;
+        font-size: 2.7vw;
     }
 
     footer p {
-        font-size: 2vw;
+        font-size: 3vw;
     }
 
 }
